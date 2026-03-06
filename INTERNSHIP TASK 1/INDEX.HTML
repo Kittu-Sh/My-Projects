@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TechSolutions | Internship</title>
+    <!-- integrating css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- nav links to naviga through the web page -->
+    <nav class="navbar">
+        <div class="logo">TECH<span>SOLUTIONS</span></div>
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- this div will be used for responsive navigation -->
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+    </nav>
+
+
+    <!-- this is hero section of landing page  -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Master the Future of <br><span class="highlight">Web Dev</span></h1>
+            <p>Complete 120-hour internship with industry-standard projects.</p>
+            <button class="btn-main" id="cta-button">Get Started Now</button>
+        </div>
+    </header>
+
+    <!-- this section  shows some features of web page through cards -->
+    <section id="features" class="features">
+        <h2>Why Choose This Program?</h2>
+        <div class="feature-grid">
+            <div class="card">
+                <div class="card-icon">💻</div>
+                <h3>Real Projects</h3>
+                <p>Build responsive websites using HTML, CSS, and Vanilla JS.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎓</div>
+                <h3>Certification</h3>
+                <p>Official NSDC-backed certificate for BCA credits.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- registration of someone's interest -->
+    <section id="contact" class="contact">
+        <div class="form-container">
+            <h2>Register Interest</h2>
+            <form id="internshipForm">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+            <p id="form-feedback"></p>
+        </div>
+    </section>
+
+    <!-- this button provides navigation to top of the web page  -->
+    <button id="backToTop">↑</button>
+
+    <!-- footer for additional info -->
+     <!-- copyright and social links  -->
+    <footer>
+        <p>&copy; 2026 Sachin Kumar Sharma</p>
+    </footer>
+
+    <!-- integration of javascript file  -->
+    <script src="script.js"></script>
+</body>
+</html>
